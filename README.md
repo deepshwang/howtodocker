@@ -29,7 +29,7 @@ An introductory document of how to adopt docker to your developing environments.
 ## 1. What is Docker & Why it's Essential?
 <a name="sec1"></a>
 
-[Introduction to Docker](docker_workshop.pdf)
+[Introduction to Docker](Docker_Workshop.pdf)
 
 ## 2. [**Images and Containers**] What they are, how to use, and how to manage
 <a name="sec2"></a>
