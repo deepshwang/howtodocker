@@ -170,7 +170,7 @@ Prerequisites (Already configured for server users):
 
 * Install Nvidia Container Runtime
     * Download [nvidia-container-runtime-script.sh](nvidia-container-runtime-script.sh) and run `$ sh nvidia-container-runtime-script.sh`
-
+    * For RTX-3080, refer to [this link](https://dongle94.github.io/docker/docker-nvidia-docker-install/)
 1. Then, it's surprisingly simple. Just tag `--gpus all` to link all available GPUs to your container. An example would look like
 
 `$ docker run -it -v /home/user123/ws:ws -v /media/user123:/media --gpus all shwang14/ws bash`
